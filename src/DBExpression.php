@@ -14,6 +14,6 @@ abstract class DBExpression {
    *
    * @return String with question mark place holders
    */
-  abstract public function toSQL(MySQLi $con);
+  abstract public function toSQL(\MySQLi $con);
 }
 ?>
